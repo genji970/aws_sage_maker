@@ -10,7 +10,7 @@ def peft_config():
 
 def model_build():
     # 모델 및 토크나이저 로드
-    model_name = "meta-llama/Llama-3.2-1B"
+    model_name = "..."
     base_model = AutoModelForCausalLM.from_pretrained(model_name,
                                                       device_map="auto",  # GPU와 CPU를 자동 분배
                                                       # torch_dtype="auto",            # 자동으로 적절한 데이터 타입(FP32, FP16 등) 선택
