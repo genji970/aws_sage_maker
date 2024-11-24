@@ -72,7 +72,7 @@ if __name__ == "__main__":
     model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[local_rank])
 
     Data_Load.data_structure()
-    Tokenizer.replace_padding_with_ignore(labels, padding_value=128001, ignore_value=-100)
+    Tokenizer.replace_padding_with_ignore(labels, padding_value=..., ignore_value=-100)
     Tokenizer.tokenizing()
     Train_Setting.training_config()
     trainer.train()
