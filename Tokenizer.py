@@ -1,4 +1,4 @@
-def replace_padding_with_ignore(labels, padding_value=128001, ignore_value=-100):
+def replace_padding_with_ignore(labels, padding_value=..., ignore_value=-100):
     """
     라벨에서 지정된 패딩 값을 -100으로 변환합니다.
     """
